@@ -28,3 +28,7 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project rules
+
+- Mouse-scrubbed background videos must be re-encoded all-intra (every frame a keyframe, no audio) before upload: sparse keyframes make `currentTime` seeks stutter.
